@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Polyswap: Cardano Decentralized Exchange</title>
+        <title>Polyswap: Decentralized Cardano Exchange</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
