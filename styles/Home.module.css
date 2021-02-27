@@ -1,0 +1,51 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  padding: 10px;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  background: linear-gradient(to right, #007dd7ff, #5a00b3ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.description {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.social a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.social svg {
+  fill: white;
+  transition: transform 0.1s;
+}
+
+.social svg:hover {
+  /* fill: #2D3FC5; */
+  transform: scale(1.1)
+}
